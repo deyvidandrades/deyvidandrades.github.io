@@ -1,0 +1,103 @@
+{
+  "projetos": [
+    {
+      "descricao": "Um app de gestão e promoção de eventos",
+      "destaque": false,
+      "nome": "Spot Party (Obsoleto)",
+      "publicado": true,
+      "tipo": "app",
+      "url": "https://play.google.com/store/apps/details?id=dws.spotparty",
+      "url_github":"",
+      "url_capa": "https://spotpartyapp.web.app/imagens/sp2.png",
+      "wip": false
+    },
+    {
+      "descricao": "Conheça pessoas que estão à poucos metros de você, converse e se conecte às redes sociais. Troque mensagens e se apresente eventualmente.",
+      "destaque": false,
+      "nome": "Blackbird (Descontinuado)",
+      "publicado": true,
+      "tipo": "app",
+      "url": "https://play.google.com/store/apps/details?id=dws.blackbird",
+      "url_github":"",
+      "url_capa": "https://play-lh.googleusercontent.com/ZVuKhFfiJc5U3kWd4q9Vu757aUSKMm6RoyEsEpItOSGlvdd0LwGq2UFIS6fMGxEDCgOb=w330-h160-rw",
+      "wip": false
+    },
+    {
+      "descricao": "Oxie é um monitor cardíaco que mede os batimentos, oxigenação e possui um contador de passos.",
+      "destaque": false,
+      "nome": "Oxie Monitor",
+      "publicado": true,
+      "tipo": "app",
+      "url": "https://play.google.com/store/apps/details?id=com.dws.oxie",
+      "url_github":"https://github.com/deyvidandrades/Oxie",
+      "url_capa": "https://play-lh.googleusercontent.com/Rr8_HlV50Ie8khfdIC3x_1JpL0yKYpxyeChzeTWCFiYZh9vaHwpq4_UwcZxDA73IbXaV=w2560-h1440-rw",
+      "wip": true
+    },
+    {
+      "descricao": "Um todo app minimalista",
+      "destaque": true,
+      "nome": "Minimal List (Minha Rotina)",
+      "publicado": true,
+      "tipo": "web",
+      "url": "https://appminharotina.web.app/",
+      "url_github":"",
+      "url_capa": "https://appminharotina.web.app/img/tarefas-personalizadas.99552bed.png",
+      "wip": false
+    },
+    {
+      "descricao": "Um visualizador de imagens multiplataforma simples e leve.",
+      "destaque": true,
+      "nome": "Do Image Viewer",
+      "publicado": true,
+      "tipo": "python",
+      "url": "https://github.com/deyvidandrades/DoImageViewer/releases",
+      "url_github":"https://github.com/deyvidandrades/DoImageViewer",
+      "url_capa": "https://raw.githubusercontent.com/deyvidandrades/DoImageViewer/main/src/res/DoImageViewer.png",
+      "wip": true
+    },
+    {
+      "descricao": "Nomees é um jogo de palavras baseado no Wordle, onde o objetivo é acertar o nome em seis palpites.",
+      "destaque": true,
+      "nome": "Nomees",
+      "publicado": true,
+      "tipo": "web",
+      "url": "https://nomees.web.app/",
+      "url_github":"https://github.com/deyvidandrades/Nomees",
+      "url_capa": "https://nomees.web.app/imagem2.png",
+      "wip": false
+    },
+    {
+      "descricao": "Um jogo de construção de cidades onde você encontrará uma experiência relaxante e ao mesmo tempo desafiadora. O jogo se concentrará na gestão da cidade.",
+      "destaque": false,
+      "nome": "Infinicities",
+      "publicado": false,
+      "tipo": "gamedev",
+      "url": "https://deyvidandrades.itch.io/infinicities",
+      "url_github":"",
+      "url_capa": "https://img.itch.zone/aW1hZ2UvMTYxNjIzNy85NDYyMTk3LnBuZw==/original/YMcUKf.png",
+      "wip": true
+    },
+    {
+      "descricao": "Um aplicativo de anotações minimalista",
+      "destaque": false,
+      "nome": "Noted",
+      "publicado": true,
+      "tipo": "app",
+      "url": "https://play.google.com/store/apps/details?id=com.dws.noted",
+      "url_github":"https://github.com/deyvidandrades/Noted",
+      "url_capa": "https://github.com/deyvidandrades/Noted/raw/master/app/src/main/res/noted-banner.png",
+      "wip": true
+    },
+    {
+      "descricao": "",
+      "destaque": false,
+      "nome": "Minha Ufla",
+      "publicado": false,
+      "tipo": "app",
+      "url": "",
+      "url_github":"https://github.com/deyvidandrades/MinhaUfla",
+      "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/Screenshot_20221206-085129.png?alt=media&token=1eeb9bb0-2825-4004-adc5-09495b5e226f",
+      "wip": true
+    }
+  ]
+}

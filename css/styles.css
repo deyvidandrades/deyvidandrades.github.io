@@ -1,0 +1,108 @@
+:root {
+  --bs-white: #fff;
+  --bs-gray: #333333;
+  --bs-primary: #363636;
+  --bs-secondary: #363636;
+  --bs-success: #198754;
+  --bs-light: #f8f9fa;
+  --bs-dark: #111111;
+  --bs-body-color: #f8f9fa;
+
+  --rounded-radius: .4rem !important;
+}
+
+html,body {
+  color: var(--bs-white);
+  background-color: var(--bs-dark);
+}
+p{
+  font-family: "American Typewriter",  monospace;
+}
+
+.circle {
+  border-radius: 2rem;
+}
+.rounded-5{
+  border-radius: var(--rounded-radius);
+}
+.rounded-5-top{
+  border-top-left-radius: var(--rounded-radius);
+  border-top-right-radius: var(--rounded-radius);
+}
+.bg{
+  background-color: var(--bs-dark) !important;
+}
+.gradiente{
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  min-height: 4px;
+}
+.bg-escuro{
+  background-color: #111111 !important;
+}
+.bg-dark{
+  background-color: #222222 !important;
+}
+.titulo-gradiente {
+  background-image: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.titulo-gradiente:hover {
+  background-image: linear-gradient(to right,#c471ed, #12c2e9, #12c2e9);
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu{
+  cursor: pointer;
+  border-radius  var(--rounded-radius);
+}
+.menu div:hover{
+  border-radius: var(--rounded-radius);
+  background-color: var(--bs-gray);
+}
+.active{
+  border-radius: var(--rounded-radius);
+  background-color: var(--bs-gray);
+}
+.center-crop {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 200px !important;
+  width: 100%;
+}
+.projeto:hover {
+  transform: scale(1.01);
+  /* cursor: pointer; */
+}
+
+.text-accent{
+  background-image: linear-gradient(to right,#c471ed, #12c2e9, #12c2e9);
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-accent:hover {
+  background-image: linear-gradient(to right,#c471ed, #12c2e9, #12c2e9);
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* body{
+  background-image: url('../imgs/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
