@@ -5,7 +5,7 @@ fetch("data/data.json")
 .then(json => init(json));
 
 function criarCard(projeto){
-  let wip = `<div class="d-flex mt-2"><div class="border px-2 rounded">${projeto.tipo}</div></div>`
+  let wip = `<div class="d-flex mt-2"><div class="border px-2 me-2 rounded">${projeto.tipo}</div><div class="border px-2 rounded">${projeto.tecnologia}</div></div>`
   let links = ``
 
   if (projeto.wip){
