@@ -106,3 +106,13 @@ p{
   background-attachment: fixed;
   background-size: cover;
 } */
+@media only screen and (height <= 800px) {
+  .lista {
+    max-height: 350px;
+  }
+}
+@media only screen and (height >= 800px) {
+  .lista {
+    max-height: 600px;
+  }
+}
