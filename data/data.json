@@ -58,7 +58,7 @@
       "url": "https://github.com/deyvidandrades/DoImageViewer/releases",
       "url_github":"https://github.com/deyvidandrades/DoImageViewer",
       "url_capa": "https://raw.githubusercontent.com/deyvidandrades/DoImageViewer/main/src/res/DoImageViewer.png",
-      "wip": true
+      "wip": false
     },
     {
       "descricao": "Nomees é um jogo de palavras baseado no Wordle, onde o objetivo é acertar o nome em seis palpites.",
