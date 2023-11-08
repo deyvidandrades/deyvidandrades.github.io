@@ -1,0 +1,30 @@
+body {
+    /* height: 100vh; */
+    background-color: #111111;
+    color: #fbfbfb;
+    margin: 0;
+}
+
+p {
+    color: #6C6C6C;
+}
+
+.frame-out {
+    background-color: #6C6C6C;
+    border: 12px solid #6C6C6C;
+    border-radius: 2rem;
+}
+
+.frame-in {
+    background-color: #ddd;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+
+.gradiente {
+    background: #12c2e9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 4px;
+}
