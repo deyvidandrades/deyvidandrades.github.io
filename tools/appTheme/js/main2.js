@@ -197,11 +197,14 @@ function displayPalette(palette) {
     const step = inputStep.value
 
     document.getElementById(`lista_mono${row_id}`).innerHTML += `
-    <div class="${ step < 9 ? "col-1": "col"} d-flex flex-column p-0">
+    <div class="${ step < 9 ? "col-1": "col"} p-0">
+    <p class="my-0">${(step - j)*step}%</p>
+    <div class="d-flex flex-column p-0">
     <div class="col py-3 " style="background-color: ${color};">
     <p class="fw-bold fs-5 mt-2 mb-0 text-center" style="color: ${palette[palette.length - 1 - j]};">
     ${hex_color.toUpperCase()}
     </p>
+    </div>
     </div>
     </div>`;
   })
