@@ -1,6 +1,4 @@
-let DATA = {}
-
-fetch("data/data.json")
+fetch("/data/data.json")
     .then(response => response.json())
     .then(json => init(json));
 
@@ -112,47 +110,26 @@ function init(data) {
     let listaConquistas = document.getElementById("listaConquistas")
     let listaEducacao = document.getElementById("listaEducacao")
 
-    /*
-    data.projetos.forEach((item, i) => {
-        //CARREGAR PROEJTOS PUBLICADOS
-        if (item.publicado) {
-            if (item.tipo === "app") {
-                projetosAndroidPublicados.innerHTML += criarCard(item)
-            }
-
-            if (item.tipo === "web") {
-                projetosWebPublicados.innerHTML += criarCard(item)
-            }
-
-            if (item.destaque) {
-                projetosDestaque.innerHTML += criarCard(item)
-            }
-        } else {
-            diretorioProjetos.innerHTML += criarCard(item)
-
-        }
-
-    });
-    */
     data["projetos"].sort((a, b) => a["data"] > b["data"] ? -1 : 1)
+
     data["projetos"].forEach((item, i) => {
         if (item["destaque"]) {
             projetosDestaque.innerHTML += criarCard(item)
         }
 
         if (item["publicado"]) {
-            if (item.tipo === "app") {
+            if (item["tipo"] === "app") {
                 projetosAndroidPublicados.innerHTML += criarCard(item)
             }
 
-            if (item.tipo === "web") {
+            if (item["tipo"] === "web") {
                 projetosWebPublicados.innerHTML += criarCard(item)
             }
         }
 
-        if (!item["publicado"] || item["arquivado"]) {
-            diretorioProjetos.innerHTML += criarCard(item)
-        }
+        //if (!item["publicado"] || item["arquivado"]) {
+        diretorioProjetos.innerHTML += criarCard(item)
+        //}
 
     })
 
@@ -175,6 +152,4 @@ function init(data) {
     data["educacao"].forEach((item, i) => {
         listaEducacao.innerHTML += criarEducacao(item)
     })
-
-
 }
