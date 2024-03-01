@@ -127,10 +127,7 @@ function init(data) {
             }
         }
 
-        //if (!item["publicado"] || item["arquivado"]) {
         diretorioProjetos.innerHTML += criarCard(item)
-        //}
-
     })
 
     data["experiencias"].forEach((item, i) => {
@@ -138,7 +135,8 @@ function init(data) {
     })
 
     data["habilidades"].forEach((item, i) => {
-        listaHabilidades.innerHTML += criarHabilidades(item)
+        if (item["tecnologia"] || item["softSkill"])
+            listaHabilidades.innerHTML += criarHabilidades(item)
     })
 
     data["capacitacoes"].forEach((item, i) => {
