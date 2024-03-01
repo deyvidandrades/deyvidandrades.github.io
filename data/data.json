@@ -1,52 +1,285 @@
 {
+  "experiencias": [
+    {
+      "instituicao": "Núcleo de Estudos em Empreendedorismo",
+      "titulo": "Coordenador de Projetos",
+      "descricao": "Fui coordenador de Projetos e membro da equipe de treinamentos. Também participei na organização e realização de eventos, como rodadas de palestras, bate papos e capacitaçãoes.",
+      "periodo": "2023"
+    },
+    {
+      "instituicao": "Spot Party",
+      "titulo": "Desenvolvedor (Android) / UX Designer",
+      "descricao": "Trabalhei na startup SpotParty no desenvolvimento de um app de gestão e promoção de eventos.",
+      "periodo": "2016-2018"
+    }
+  ],
+  "capacitacoes": [
+    {
+      "titulo": "Introdução a Ferramenta Trello",
+      "descricao": "Apliquei uma capacitação sobre a ferramenta Trello para membros do Núcleo de Estudos em Empreendedorismo. (NEEMP Ufla)",
+      "periodo": "2023/2"
+    },
+    {
+      "titulo": "Introdução ao Scrum",
+      "descricao": "Apliquei uma capacitação sobre o framework do Scrum para alunos graduandos em Administração na Ufla. (NEEMP Ufla)",
+      "periodo": "2023/1"
+    },
+    {
+      "titulo": "Como Desenvolver seu Mindset",
+      "descricao": "Apliquei uma capacitação sobre como desenvolver um mindset de crescimento. (NEEMP Ufla)",
+      "periodo": "2023/1"
+    },
+    {
+      "titulo": "Diretrizes para Falar Bem em Público",
+      "descricao": "Apliquei uma capacitação sobre Diretrizes para Falar Bem em Público na Escola Estadual Cristiano de Souza. (NEEMP Ufla)",
+      "periodo": "2023/1"
+    }
+  ],
+  "conquistas": [
+    {
+      "titulo": "Promoção: Coordenador de Projetos",
+      "descricao": "Fui eleito como coordenador de projetos no Núcleo de Estudos em Empreendedorismo da Universidade Federal de Lavras.",
+      "periodo": "2023"
+    },
+    {
+      "titulo": "Palestra/Apresentação",
+      "descricao": "Fui membro da equipe de capacitações do Núcleo de Estudos em Empreendedorismo da Universidade Federal de Lavras, onde pude ministrar treinamentos sobre desenvolvimento pessoal e gestão de projetos.",
+      "periodo": "2023"
+    },
+    {
+      "titulo": "Prêmio: Empresa Destaque",
+      "descricao": "Trabalhei na Startup Spot Party, onde participamos do processo de pré-incubação de empresas na Incubadora de Empresas de base Tecnológica da UNIFAL e fomos premiados como a empresa destaque do proceso.",
+      "periodo": "2018"
+    },
+    {
+      "titulo": "Processo seletivo",
+      "descricao": "Fui aprovado no processo de pré-incubação de empresas com a Startup Spot Party na Incubadora de Empresas de base Tecnológica da UNIFAL.",
+      "periodo": "2017"
+    },
+    {
+      "titulo": "Palestra/Apresentação",
+      "descricao": "Fui convidado junto a apresentar projetos desenvolvidos durante a graduação na Escola Iracema Rodrigues, Machado MG.",
+      "periodo": "2016"
+    },
+    {
+      "titulo": "Palestra/Apresentação",
+      "descricao": "Apresentação de projeto de conclusão de curso técnico em infomática e desenvolvimento de sistemas (Projeto: Do Voice Chat)",
+      "periodo": "2015"
+    }
+  ],
+  "educacao": [
+    {
+      "titulo": "Bacharelado em Sistemas de Informação (interrompido)",
+      "instituicao": "Universidade Federal de Lavras",
+      "periodo": "2018-2023",
+      "topicos": [
+        "2023 - Coordenador de Projetos no Núcleo de Estudos em Empreendedorismo (NEEMP)",
+        "2023 - Treinamento ministrado: Diretrizes para Falar Bem Em Público",
+        "2023 - Treinamento ministrado: Introdução a Ferramenta Trello (Autoral)",
+        "2023 - Treinamento ministrado: Mindset (Inteligência emocinal)",
+        "2023 - Treinamento ministrado: Introdução ao Scrum (Gestão de projetos)",
+        "2019 - Hackathon de Processo Seletivo promovido peloa Empresa CompJunior",
+        "2018 - Minicurso: Introdução ao Capture The Flag (Segurança da informação)"
+      ]
+    },
+    {
+      "titulo": "Programa de Pré-incubação de Empresas",
+      "instituicao": "Incubadora de Empresas de base tecnológica (NIDUSTEC)",
+      "periodo": "2017-2018",
+      "topicos": [
+        "Prêmio de Empresa Destaque: Startup de tecnologia foi premiada como empresa destaque ao final do programa de pré-incubação."
+      ]
+    },
+    {
+      "titulo": "Curso de Machine Learning e Data Science",
+      "instituicao": "Udemy",
+      "periodo": "2017",
+      "topicos": []
+    },
+    {
+      "titulo": "Minicurso: Introdução ao Desenvolvimento de jogos digitais com a ferramenta Unity3d",
+      "instituicao": "INATEL",
+      "periodo": "2014",
+      "topicos": []
+    },
+    {
+      "titulo": "Curso Técnico em Informática e Desenvolvimento de Sistemas",
+      "instituicao": "E. E. Américo Dias Pereira",
+      "periodo": "2013-2015",
+      "topicos": [
+        "Tecnologias: C#, MySql, HTML5, CSS, JS,PHP"
+      ]
+    },
+    {
+      "titulo": "Curso de Projetista",
+      "instituicao": "Brasil Treina",
+      "periodo": "2012-2013",
+      "topicos": [
+        "Design e modelagem 2D e 3D",
+        "Ferramenta: 3d Studio Max",
+        "Ferramenta: Autocad"
+      ]
+    },
+    {
+      "titulo": "Curso Técnico em Montagem e Manutenção de Computadores",
+      "instituicao": "Microlins",
+      "periodo": "2011",
+      "topicos": []
+    }
+  ],
+  "habilidades": [
+    {
+      "titulo": "Android SDK",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Kotlin",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Java",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Firebase",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "UX Design",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "HTML/CSS",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "JS",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Bootstrap",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "VUEJs",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Python",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Flask",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "GIT",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "REST",
+      "descricao": "",
+      "softSkill": false
+    },
+    {
+      "titulo": "Scrum",
+      "descricao": "Trabalhei com o framework em equipes desenvolvendo projetos de tecnologia e projetos voltados ao empreendedorismo.",
+      "softSkill": false
+    },
+    {
+      "titulo": "Oratória",
+      "descricao": "Sempre tive interesse em apresentar em público, já fiz apresentações de projetos pessoais e, recentemente, ministrei treinamentos nas áreas de desenvolvimento pessoal, tecnologia e gestrão de projetos.",
+      "softSkill": true
+    },
+    {
+      "titulo": "Inteligência emocional",
+      "descricao": "",
+      "softSkill": true
+    },
+    {
+      "titulo": "Pensamento crítico",
+      "descricao": "",
+      "softSkill": true
+    },
+    {
+      "titulo": "Trabalho em equipe",
+      "descricao": "",
+      "softSkill": true
+    },
+    {
+      "titulo": "Organização",
+      "descricao": "",
+      "softSkill": true
+    }
+  ],
   "projetos": [
     {
+      "nome": "Spot Party",
       "descricao": "Um app de gestão e promoção de eventos",
-      "destaque": false,
-      "nome": "Spot Party (Obsoleto)",
-      "publicado": true,
       "tipo": "app",
       "tecnologia": "Java",
+      "data": 2017,
       "url": "https://play.google.com/store/apps/details?id=dws.spotparty",
-      "url_github":"",
-      "url_capa": "https://spotpartyapp.web.app/imagens/sp2.png",
+      "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/sp_capa_fb_sem_data.png?alt=media&token=64554b36-b696-4dd7-8121-24153f6c3e69",
+      "url_github": "",
+      "destaque": false,
+      "publicado": true,
+      "arquivado": true,
       "wip": false
     },
     {
       "descricao": "Conheça pessoas que estão à poucos metros de você, converse e se conecte às redes sociais. Troque mensagens e se apresente eventualmente.",
       "destaque": false,
-      "nome": "Blackbird (Descontinuado)",
+      "nome": "Blackbird",
       "publicado": true,
       "tipo": "app",
+      "data": 2016,
       "tecnologia": "Java",
       "url": "https://play.google.com/store/apps/details?id=dws.blackbird",
-      "url_github":"",
+      "url_github": "",
       "url_capa": "https://play-lh.googleusercontent.com/ZVuKhFfiJc5U3kWd4q9Vu757aUSKMm6RoyEsEpItOSGlvdd0LwGq2UFIS6fMGxEDCgOb=w330-h160-rw",
-      "wip": false
+      "wip": false,
+      "arquivado": true
     },
     {
       "descricao": "Oxie é um monitor cardíaco que mede os batimentos, oxigenação e possui um contador de passos.",
       "destaque": false,
       "nome": "Oxie Monitor",
       "publicado": true,
+      "data": 2022,
       "tipo": "app",
       "tecnologia": "Kotlin",
       "url": "https://play.google.com/store/apps/details?id=com.dws.oxie",
-      "url_github":"https://github.com/deyvidandrades/Oxie",
+      "url_github": "https://github.com/deyvidandrades/Oxie",
       "url_capa": "https://play-lh.googleusercontent.com/Rr8_HlV50Ie8khfdIC3x_1JpL0yKYpxyeChzeTWCFiYZh9vaHwpq4_UwcZxDA73IbXaV=w2560-h1440-rw",
-      "wip": true
+      "wip": true,
+      "arquivado": false
     },
     {
       "descricao": "Um todo app minimalista",
       "destaque": true,
       "nome": "Minimal List (Minha Rotina)",
       "publicado": true,
+      "data": 2021,
       "tipo": "web",
       "tecnologia": "Vuejs",
       "url": "https://appminharotina.web.app/",
-      "url_github":"",
+      "url_github": "",
       "url_capa": "https://appminharotina.web.app/img/tarefas-personalizadas.99552bed.png",
-      "wip": false
+      "wip": false,
+      "arquivado": false
     },
     {
       "descricao": "Um visualizador de imagens multiplataforma simples e leve.",
@@ -54,34 +287,39 @@
       "nome": "Do Image Viewer",
       "publicado": true,
       "tipo": "desktop",
+      "data": 2022,
       "tecnologia": "Python",
       "url": "https://github.com/deyvidandrades/DoImageViewer/releases",
-      "url_github":"https://github.com/deyvidandrades/DoImageViewer",
+      "url_github": "https://github.com/deyvidandrades/DoImageViewer",
       "url_capa": "https://raw.githubusercontent.com/deyvidandrades/DoImageViewer/main/src/res/DoImageViewer.png",
-      "wip": false
+      "wip": false,
+      "arquivado": false
     },
     {
       "descricao": "Nomees é um jogo de palavras baseado no Wordle, onde o objetivo é acertar o nome em seis palpites.",
-      "destaque": true,
+      "destaque": false,
       "nome": "Nomees",
       "publicado": true,
       "tipo": "web",
+      "data": 2022,
       "tecnologia": "Js",
       "url": "https://nomees.web.app/",
-      "url_github":"https://github.com/deyvidandrades/Nomees",
+      "url_github": "https://github.com/deyvidandrades/Nomees",
       "url_capa": "https://nomees.web.app/imagem2.png",
-      "wip": false
+      "wip": false,
+      "arquivado": false
     },
     {
-      "descricao": "Um jogo de construção de cidades onde você encontrará uma experiência relaxante e ao mesmo tempo desafiadora. O jogo se concentrará na gestão da cidade.",
+      "descricao": "Um jogo de construção de cidades onde você encontrará uma experiência relaxante e ao mesmo tempo desafiadora.",
       "destaque": false,
       "nome": "Infinicities",
       "publicado": false,
       "tipo": "gamedev",
+      "data": 2022,
       "tecnologia": "GdScript",
       "url": "https://deyvidandrades.itch.io/infinicities",
-      "url_github":"",
-      "url_capa": "https://img.itch.zone/aW1hZ2UvMTYxNjIzNy85NDYyMTk3LnBuZw==/original/YMcUKf.png",
+      "url_github": "",
+      "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/bg2.png?alt=media&token=aaa8fcd9-53ac-4b35-9b45-c494402508c6",
       "wip": true
     },
     {
@@ -90,23 +328,83 @@
       "nome": "Noted",
       "publicado": true,
       "tipo": "app",
+      "data": 2022,
       "tecnologia": "Kotlin",
       "url": "https://play.google.com/store/apps/details?id=com.dws.noted",
-      "url_github":"https://github.com/deyvidandrades/Noted",
+      "url_github": "https://github.com/deyvidandrades/Noted",
       "url_capa": "https://github.com/deyvidandrades/Noted/raw/master/app/src/main/res/noted-banner.png",
-      "wip": true
+      "wip": true,
+      "arquivado": false
     },
     {
-      "descricao": "Uma alternativa ao antigo aplicatio Minha Ufla estudante. O novo app permite que os estudantes possam acessar suas informações acadêmicas de maneira rápida e prática, visualizar horários e salas de aula, acompanhar suas notas, horários do ônibus interno, cardápio do restaurante entre outras informações da instituição.",
+      "descricao": "Proposta para novo aplicativo para estudantes da Ufla.",
       "destaque": false,
       "nome": "Minha Ufla",
       "publicado": false,
       "tipo": "app",
+      "data": 2022,
       "tecnologia": "Kotlin",
       "url": "",
-      "url_github":"https://github.com/deyvidandrades/MinhaUfla",
+      "url_github": "https://github.com/deyvidandrades/MinhaUfla",
       "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/Screenshot_20221206-085129.png?alt=media&token=1eeb9bb0-2825-4004-adc5-09495b5e226f",
-      "wip": true
+      "wip": false,
+      "arquivado": true
+    },
+    {
+      "nome": "Tabie",
+      "descricao": "Este é o Tabie, o contador de guias. Contador de abas abertas na barra de extensões do Chrome.",
+      "destaque": false,
+      "publicado": true,
+      "tipo": "web",
+      "data": 2023,
+      "tecnologia": "JS",
+      "url": "https://chrome.google.com/webstore/detail/tabie/lnaelkidoagdbcoclehbibcjmepdpigg?hl=pt-BR&authuser=0",
+      "url_github": "https://github.com/deyvidandrades/TabCounterExtension",
+      "url_capa": "https://raw.githubusercontent.com/deyvidandrades/TabCounterExtension/main/src/tabie-banner-1280x800.png",
+      "wip": false,
+      "arquivado": false
+    },
+    {
+      "nome": "Meus Dias",
+      "descricao": "O Meus dias é um aplicativo projetado para ajudá-lo a transformar seus objetivos em realidade, de forma descontraida, focando em um único objetivo de cada vez.",
+      "destaque": true,
+      "publicado": true,
+      "tipo": "app",
+      "data": 2023,
+      "tecnologia": "Kotlin",
+      "url": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meusdias",
+      "url_github": "https://github.com/deyvidandrades/MeusDias",
+      "url_capa": "https://raw.githubusercontent.com/deyvidandrades/MeusDias/master/src/main/meusdias-banner.png",
+      "wip": false,
+      "arquivado": false
+    },
+    {
+      "nome": "Checkie",
+      "descricao": "Um todo app simples e direto ao ponto.",
+      "destaque": false,
+      "publicado": false,
+      "tipo": "web",
+      "data": 2023,
+      "tecnologia": "Js",
+      "url": "https://deyvidandrades.github.io/tools/todo",
+      "url_github": "",
+      "url_capa": "https://deyvidandrades.github.io/tools/todo/img/checkie-banner.png",
+      "wip": false,
+      "arquivado": false
+    },
+    {
+      "nome": "Gerador de Paletas Monocromaticas",
+      "descricao": "Um gerador de paletas de cores para auxiliar no processo de design.",
+      "destaque": false,
+      "publicado": false,
+      "tipo": "web",
+      "data": 2023,
+      "tecnologia": "Js",
+      "url": "https://deyvidandrades.github.io/tools/appTheme",
+      "url_github": "",
+      "url_capa": "https://deyvidandrades.github.io/tools/appTheme/gerador_paletas.png",
+      "wip": false,
+      "arquivado": false
     }
   ]
 }

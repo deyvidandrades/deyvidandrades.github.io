@@ -1,370 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <meta http-equiv="content-language" content="pt-BR"/>
+    <meta http-equiv="content-language" content="pt-BR"/>
 
-  <meta name="robots" content="NoFollow, noarchive"/>
-  <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="robots" content="NoFollow, noarchive"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
 
-  <meta name="copyright" content="©2022 Deyvid Andrade"/>
-  <meta name="author" content="Deyvid Andrade"/>
+    <meta name="copyright" content="©2022 Deyvid Andrade"/>
+    <meta name="author" content="Deyvid Andrade"/>
 
-  <meta name="keywords" content="portifolio, pessoal, projetos"/>
-  <meta name="mobile-web-app-capable" content="yes"/>
-  <meta name="theme-color" content="#12c2e9"/>
+    <meta name="keywords" content="portifolio, pessoal, projetos"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="theme-color" content="#12c2e9"/>
 
-  <link rel="icon" type="image" href="favicon.png">
+    <link rel="icon" type="image" href="favicon.png">
 
-  <meta property="og:title" content="daveloper">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://deyvidandrades.github.io/">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="daveloper">
+    <meta property="og:title" content="daveloper">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deyvidandrades.github.io/">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="daveloper">
 
-  <title>{Dave}loper</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/styles.css" />
+    <title>{Dave}loper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
+
 
 <body style="height: 100vh">
 
-  <div class="gradiente"></div>
+<div class="gradiente"></div>
 
-  <div class="p-3">
+<div class="p-3">
     <a href="/" class="text-decoration-none fs-3 text-light fw-bold">{Dave}loper</a>
-  </div>
-
-  <!--NAV-->
-  <header class="d-flex justify-content-center py-3">
+</div>
+<!--NAV-->
+<header class="d-flex justify-content-center py-3">
 
     <ul class="col col-11 col-md-8 col-lg-4 bg-dark rounded menu border-0 nav nav-tabs" id="mainTab" role="tablist">
-      <li class="col nav-item" role="presentation">
-        <div class="p-2 text-center active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false">Home</div>
-      </li>
-      <li class="col nav-item" role="presentation">
-        <div class="p-2 text-center" id="portifolio-tab" data-bs-toggle="tab" data-bs-target="#portifolio" type="button" role="tab" aria-controls="portifolio" aria-selected="false">Portifolio</div>
-      </li>
-      <li class="col nav-item" role="presentation">
-        <div class="p-2 text-center" id="projetos-tab" data-bs-toggle="tab" data-bs-target="#projetos" type="button" role="tab" aria-controls="projetos" aria-selected="false"> Outros Projetos</div>
-      </li>
-      <li class="col nav-item" role="presentation">
-        <div class="p-2 text-center" id="ferramentas-tab" data-bs-toggle="tab" data-bs-target="#ferramentas" type="button" role="tab" aria-controls="ferramentas" aria-selected="false">Ferramentas</div>
-      </li>
+        <li class="col nav-item" role="presentation">
+            <div class="p-2 text-center active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                 role="tab" aria-controls="home" aria-selected="false">Home
+            </div>
+        </li>
+        <li class="col nav-item" role="presentation">
+            <div class="p-2 text-center" id="portifolio-tab" data-bs-toggle="tab" data-bs-target="#portifolio"
+                 type="button" role="tab" aria-controls="portifolio" aria-selected="false">Portifolio
+            </div>
+        </li>
+        <li class="col nav-item" role="presentation">
+            <div class="p-2 text-center" id="projetos-tab" data-bs-toggle="tab" data-bs-target="#projetos" type="button"
+                 role="tab" aria-controls="projetos" aria-selected="false"> Outros Projetos
+            </div>
+        </li>
+        <!--<li class="col nav-item" role="presentation">-->
+        <!--    <div class="p-2 text-center" id="ferramentas-tab" data-bs-toggle="tab" data-bs-target="#ferramentas"-->
+        <!--         type="button" role="tab" aria-controls="ferramentas" aria-selected="false">Ferramentas-->
+        <!--    </div>-->
+        <!--</li>-->
     </ul>
-  </header>
+</header>
 
-  <div class="container mx-auto mt-5 row row-fluid d-flex justify-content-center">
+
+<div class="container mx-auto mt-5 row row-fluid d-flex justify-content-center">
 
     <div class="tab-content col col-11 col-lg-10">
 
-      <div class="tab-pane bg active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        <!-- BIO -->
-        <section>
-          <div class="row">
-            <div class="col col-4 col-md-2 col-lg-2 p-3 p-md-6 p-lg-6">
-              <img class="img-fluid circle shadow" src="https://avatars3.githubusercontent.com/u/25033828?s=460&amp;u=5ed9d631b850a87b81ca67b7eada00550d942d84&amp;v=4" alt="">
-            </div>
+        <div class="tab-pane bg active mb-5" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <!-- BIO -->
+            <section>
+                <div class="row">
+                    <div class="col col-4 col-md-2 col-lg-2 p-3 p-md-6 p-lg-6">
+                        <img class="img-fluid circle shadow"
+                             src="https://avatars3.githubusercontent.com/u/25033828?s=460&amp;u=5ed9d631b850a87b81ca67b7eada00550d942d84&amp;v=4"
+                             alt="">
+                    </div>
 
-            <div class="col col-12 col-md-12 col-lg-10 my-auto">
-              <h1 class="text-light col-10 display-5">Desenvolvedor mobile criando apps incríveis!</h1>
-            </div>
-          </div>
-
-          <p class="lead"> <label class="text-primary fw-bold">Olá</label>, meu nome é Deyvid (Dave) Andrade. Sou desenvolvedor de apps para Android, tenho um espírito empreendedor e me considero um entusiasta de segurança da informação.</p>
-
-          <p class="lead text-light ">Meu combustível é a curiosidade, pra mim é comum deixar a criatividade tomar conta e me permitir criar coisas novas.
-            <a class=" " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Continue lendo</a>
-          </p>
-
-          <div class="collapse" id="collapseExample">
-            <p class="lead text-light">
-              Eu entrei para o mundo do desenvolvimento com meu primeiro computador, comecei criando modificações de script pra jogos e pouco tempo depois já desenvolvia minhas primeiras aplicações para web e desktop.
-            </p>
-
-            <p class="lead text-light">
-              Hoje, minha principal especialidade é no desenvolvimento de aplicativos para Android, tenho trabalhado com a tecnologia desde 2015. Inicialmente utilizando Java no desenvolvimento de aplicativos, no entanto, recentemente estou estudando Kotlin.
-            </p>
-          </div>
-
-          <!-- INFO CONTATO -->
-          <ul class="list-group list-group-horizontal d-flex flex-wrap my-5">
-
-            <li class="list-group-item bg-escuro border-0">
-              <a class="link-light" href="https://github.com/deyvidandrades" target="_blank"><i class="bi bi-fw bi-github"></i></a>
-            </li>
-
-            <li class="list-group-item bg-escuro border-0">
-              <a class="link-light" href="https://www.linkedin.com/in/deyvid-andrade-73478863/" target="_blank"><i class="bi bi-fw bi-linkedin"></i></a>
-            </li>
-
-            <li class="list-group-item bg-escuro border-0">
-              <a class="link-light" href="https://instagram.com/deyvidandrades" target="_blank"><i class="bi bi-fw bi-instagram"></i></a>
-            </li>
-
-            <li class="list-group-item bg-escuro border-0">
-              <a class="link-light" href="https://twitter.com/deyvid_andrades" target="_blank"><i class="bi bi-fw bi-twitter"></i></a>
-            </li>
-
-            <li class="list-group-item bg-dark rounded border-0 me-3">
-              <a class="link-light" href="mailto:deyvid.asilva@gmail.com" target="_blank">Entre em contato</a>
-            </li>
-
-            <li class="list-group-item bg-dark rounded border-0">
-              <a class="link-light" href="data/deyvid-andrade-cv-pt_br.pdf" target="_blank">Meu CV</a>
-            </li>
-          </ul>
-        </section>
-
-        <div class="gradiente my-5 rounded-5"></div>
-
-        <!-- CARREIRA -->
-        <section class="row row-fluid my-5">
-          <div class="col col-12 col-md-6">
-            <h1 class="display-5">🧙‍♂️ Minha carreira até o momento</h1>
-
-            <ul class="list-group list-group-flush">
-
-              <li class="list-group-item bg-escuro p-0 text-light">
-                <div class="text-primary">Núcleo de Estudos em Empreendedorismo - NEEMP</div>
-                <p class="light">(2023-atual) Atualmente sou Coordenador de Projetos do núcleo e membro da equipe de treinamentos.</p>
-              </li>
-
-              <li class="list-group-item bg-escuro p-0 text-light">
-                <div class="text-primary">Universidade Federal de Lavras</div>
-                <p class="light">(2018/2-atual) Atualmente sou aluno de graduação no curso de Sistemas de Informação.</p>
-              </li>
-
-              <li class="list-group-item bg-escuro p-0 text-light">
-                <div class="text-primary">Desenvolvedor Andrdoid / UX Designer na SpotParty</div>
-                <p class="light">(2016-2018) Trabalhei na startup SpotParty no desenvolvimento de um app de gestão e promoção de eventos.</p>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col col-12 col-md-6">
-
-            <div class="d-flex flex-wrap gap-1">
-              <div class="border px-2 py-1 rounded">ANDROID APPS</div>
-              <div class="border px-2 py-1 rounded">JAVA</div>
-              <div class="border px-2 py-1 rounded">KOTLIN</div>
-              <div class="border px-2 py-1 rounded">PYTHON</div>
-              <div class="border px-2 py-1 rounded">UX</div>
-              <div class="border px-2 py-1 rounded">JS</div>
-              <div class="border px-2 py-1 rounded">TAILWIND</div>
-              <div class="border px-2 py-1 rounded">TYPESCRIPT</div>
-              <div class="border px-2 py-1 rounded">HTML/CSS</div>
-              <div class="border px-2 py-1 rounded">BOOTSTRAP</div>
-              <div class="border px-2 py-1 rounded">FIREBASE</div>
-              <div class="border px-2 py-1 rounded">VUEJS</div>
-              <div class="border px-2 py-1 rounded">REST</div>
-              <div class="border px-2 py-1 rounded">GIT</div>
-            </div>
-          </div>
-        </section>
-
-        <div class="gradiente my-5 rounded-5"></div>
-
-        <section class="row row-fluid my-5">
-          <div class="col col-12">
-            <h1 class="display-5">📜 Treinamentos e Capacitações</h1>
-
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-book"></i>
-                  Introdução a Ferramenta Trello
+                    <div class="col col-12 col-md-12 col-lg-10 my-auto">
+                        <h1 class="text-light col-10 display-5">Desenvolvedor mobile criando apps incríveis!</h1>
+                    </div>
                 </div>
-                <p class="light"> <span class="text-primary">(2023/2)</span> Apliquei uma capacitação sobre a ferramenta Trello para membros do Núcleo de Estudos em Empreendedorismo. (NEEMP Ufla)</p>
-              </li>
 
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-book"></i>
-                  Introdução ao Scrum
+                <p class="lead"><label class="text-primary fw-bold">Olá</label>, meu nome é Deyvid (Dave) Andrade. Sou
+                    desenvolvedor de apps para Android, tenho um espírito empreendedor e me considero um entusiasta de
+                    segurança da informação.</p>
+
+                <p class="lead text-light ">Meu combustível é a curiosidade, pra mim é comum deixar a criatividade tomar
+                    conta e me permitir criar coisas novas.
+                    <a class=" " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                       aria-controls="collapseExample">Continue lendo</a>
+                </p>
+
+                <div class="collapse" id="collapseExample">
+                    <p class="lead text-light">
+                        Eu entrei para o mundo do desenvolvimento com meu primeiro computador, comecei criando
+                        modificações de script pra jogos e pouco tempo depois já desenvolvia minhas primeiras aplicações
+                        para web e desktop.
+                    </p>
+
+                    <p class="lead text-light">
+                        Hoje, minha principal especialidade é no desenvolvimento de aplicativos para Android, tenho
+                        trabalhado com a tecnologia desde 2015. Inicialmente utilizando Java no desenvolvimento de
+                        aplicativos, no entanto, recentemente estou estudando Kotlin.
+                    </p>
                 </div>
-                <p class="light"> <span class="text-primary">(2023/1)</span> Apliquei uma capacitação sobre o framework do Scrum para alunos graduandos em Administração na Ufla. (NEEMP Ufla)</p>
-              </li>
 
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-book"></i>
-                  Como Desenvolver seu Mindset
+                <!-- INFO CONTATO -->
+                <ul class="list-group list-group-horizontal d-flex flex-wrap my-5">
+
+                    <li class="list-group-item bg-escuro border-0">
+                        <a class="link-light" href="https://github.com/deyvidandrades" target="_blank"><i
+                            class="bi bi-fw bi-github"></i></a>
+                    </li>
+
+                    <li class="list-group-item bg-escuro border-0">
+                        <a class="link-light" href="https://www.linkedin.com/in/deyvid-andrade-73478863/"
+                           target="_blank"><i class="bi bi-fw bi-linkedin"></i></a>
+                    </li>
+
+                    <li class="list-group-item bg-escuro border-0">
+                        <a class="link-light" href="https://instagram.com/deyvidandrades" target="_blank"><i
+                            class="bi bi-fw bi-instagram"></i></a>
+                    </li>
+
+                    <li class="list-group-item bg-escuro border-0">
+                        <a class="link-light" href="https://twitter.com/deyvid_andrades" target="_blank"><i
+                            class="bi bi-fw bi-twitter"></i></a>
+                    </li>
+
+                    <li class="list-group-item bg-dark rounded border-0 me-3">
+                        <a class="link-light" href="mailto:deyvid.asilva@gmail.com" target="_blank">Entre em contato</a>
+                    </li>
+
+                    <li class="list-group-item bg-dark rounded border-0">
+                        <a class="link-light" href="data/deyvid-andrade-cv-pt_br.pdf" target="_blank">Meu CV</a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="gradiente my-5 rounded-5"></div>
+
+            <!-- CARREIRA -->
+            <section class="row row-fluid my-5">
+                <div class="col col-12 col-md-7">
+                    <h1 class="display-5">🧙‍♂️ Minha carreira até o momento</h1>
+                    <ul class="list-group list-group-flush" id="listaExperiencias"></ul>
                 </div>
-                <p class="light"> <span class="text-primary">(2023/1)</span> Apliquei uma capacitação sobre como desenvolver um mindset de crescimento. (NEEMP Ufla)</p>
-              </li>
 
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-book"></i>
-                  Diretrizes para Falar Bem em Público
+                <div class="col col-12 col-md-5">
+                    <div class="d-flex flex-wrap gap-1" id="listaHabilidades"></div>
                 </div>
-                <p class="light"> <span class="text-primary">(2023/1)</span> Apliquei uma capacitação sobre Diretrizes para Falar Bem em Público na Escola Estadual Cristiano de Souza. (NEEMP Ufla)</p>
-              </li>
-            </ul>
-          </div>
-        </section>
+            </section>
 
-        <div class="gradiente my-5 rounded-5"></div>
+            <div class="gradiente my-5 rounded-5"></div>
 
-        <section class="row row-fluid my-5">
-          <div class="col col-12">
-            <h1 class="display-5">🏆 Algumas Conquistas</h1>
+            <!-- PREVIEW PROJETOS -->
+            <section class="text-start my-5">
+                <h1 class="text-light display-5">Projetos em destaque</h1>
+                <p class="text-light mb-4">Uma lista dos ultimos projetos que eu tenho trabalhado.</p>
 
-            <ul class="list-group list-group-flush">
+                <div class="row row-fluid row-cols-lg-3" id="projetosDestaque"></div>
 
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-trophy"></i>
-                  Empresa Destaque
+                <div class="text-end p-0 mt-3">
+                    <a class="bg-dark px-4 py-2 rounded link-light" href="https://github.com/deyvidandrades"
+                       target="_blank">Veja mais</a>
                 </div>
-                <p class="light"> <span class="text-primary">(2018)</span> Trabalhei na Startup Spot Party, onde participamos do processo de pré-incubação de empresas na Incubadora de Empresas de base Tecnológica da UNIFAL e fomos premiados como a empresa destaque do proceso.</p>
-              </li>
+            </section>
 
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-trophy"></i>
-                  Palestra/Apresentação
+            <div class="gradiente my-5 rounded-5"></div>
+
+            <!--TREINAMENTOS-->
+            <section class="row row-fluid my-5">
+                <div class="col col-12">
+                    <h1 class="display-5">📜 Treinamentos e Capacitações</h1>
+
+                    <ul class="list-group list-group-flush" id="listaCapacitacoes"></ul>
                 </div>
-                <p class="light"> <span class="text-primary">(2016)</span> Apresentação de projetos desenvolvidos durante a graduação apresentados na Escola Iracema Rodrigues, Machado MG. (Grupo DWS)</p>
-              </li>
+            </section>
 
-              <li class="list-group-item bg-escuro p-0 text-light mt-3">
-                <div class="lead fw-bold">
-                  <i class="bi-trophy"></i>
-                  Apresentação
+            <div class="gradiente my-5 rounded-5"></div>
+
+            <!--CONQUISTAS-->
+            <section class="row row-fluid my-5">
+                <div class="col col-12">
+                    <h1 class="display-5">🏆 Algumas Conquistas</h1>
+
+                    <ul class="list-group list-group-flush" id="listaConquistas"></ul>
                 </div>
-                <p class="light"> <span class="text-primary">(2015)</span> Apresentação de projeto de conclusão de curso técnico (Projeto Do Voice Chat)</p>
-              </li>
-            </ul>
-          </div>
-        </section>
+            </section>
 
-        <div class="gradiente my-5 rounded-5"></div>
+            <div class="gradiente my-5 rounded-5"></div>
 
-        <!-- PREVIEW PROJETOS -->
-        <section class="text-start my-5">
-          <h1 class="text-light display-5">Projetos em destaque</h1>
-          <p class="text-light mb-4">Uma lista dos ultimos projetos que eu tenho trabalhado.</p>
+            <!--EDUCACAO-->
+            <section class="row row-fluid my-5">
+                <div class="col col-12">
+                    <h1 class="display-5">🎓 Educação</h1>
 
-          <div class="row row-fluid row-cols-lg-3" id="projetosDestaque"></div>
-
-          <div class="text-end p-0 mt-3">
-            <a class="bg-dark px-4 py-2 rounded link-light" href="https://github.com/deyvidandrades" target="_blank">Veja mais</a>
-          </div>
-        </section>
-
-      </div>
-
-      <div class="tab-pane mb-5" id="portifolio" role="tabpanel" aria-labelledby="portifolio-tab">
-
-        <!-- PREVIEW PROJETOS -->
-        <section  class="bg text-light">
-          <div class="text-start">
-            <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Work in progress">Meus apps publicados</h1>
-            <p class="text-light mb-4">Trabalhos que publiquei na GooglePlay store.</p>
-
-            <div class="row row-fluid row-cols-lg-3" id="projetosAndroidPublicados"></div>
-
-            <div class="col col-12 gradiente my-5 rounded-5"></div>
-            <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Work in progress">Projetos Web publicados</h1>
-            <p class="text-light mb-4">Sites que eu desenvolvi.</p>
-
-            <div class="row row-fluid row-cols-lg-3" id="projetosWebPublicados"></div>
-
-            <div class="text-end mt-3">
-              <a class="bg-dark px-4 py-2 rounded link-light" href="https://github.com/deyvidandrades" target="_blank">Outros projetos</a>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div class="tab-pane bg mb-5" id="projetos" role="tabpanel" aria-labelledby="projetos-tab">
-
-        <!-- OUTROS PROJETOS -->
-        <section  class="text-light">
-          <div class="text-start">
-            <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Work in progress">Diretório de Projetos</h1>
-            <p class="text-light mb-4">Uma lista dos ultimos projetos que eu tenho trabalhado incluindo projetos pessoais.</p>
-
-
-            <div class="row row-fluid row-cols-lg-3" id="diretorioProjetos"></div>
-
-            <div class="text-end mt-3">
-              <a class="link-light" href="https://github.com/deyvidandrades" target="_blank">Outros projetos</a>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <!-- FERRAMENTAS -->
-      <div class="tab-pane bg" id="ferramentas" role="tabpanel" aria-labelledby="ferramentas-tab">
-        <section  class="text-light">
-          <div class="text-start">
-            <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Work in progress">Ferramentas</h1>
-            <p class="text-light mb-4">Algumas ferramentas que eu desenvolvi para uso pessoal.</p>
-
-            <div class="row ">
-              <div class="col col-lg-4 p-2">
-                <div class="bg-dark rounded shadow p-0 projeto h-100">
-                  <img class="img img-fluid center-crop rounded-5-top" src="/tools/todo/img/checkie-banner.png" alt="Capa do projeto Infinicities">
-                  <div class="card-body p-4">
-                    <a class="link-light me-3" href="https://deyvidandrades.github.io/tools/todo" target="_blank"><i class="bi bi-fw bi-globe2"></i></a>
-                    <p class="fw-bold my-2">Checkie</p>
-                    <p>Um todo app simples e direto ao ponto.</p>
-
-                  </div>
+                    <ul class="list-group list-group-flush" id="listaEducacao"></ul>
                 </div>
-              </div>
-
-              <div class="col col-lg-4 p-2">
-                <div class="bg-dark rounded shadow p-0 projeto h-100">
-                  <img class="img img-fluid center-crop rounded-5-top" src="https://raw.githubusercontent.com/deyvidandrades/TabCounterExtension/main/src/tabie-banner-1280x800.png" alt="Capa do projeto Tabie">
-                  <div class="card-body p-4">
-                    <a class="link-light me-3" href="https://chrome.google.com/webstore/detail/tabie/lnaelkidoagdbcoclehbibcjmepdpigg?hl=pt-BR&authuser=0" target="_blank"><i class="bi bi-fw bi-globe2"></i></a>
-                    <a class="link-light me-3" href="https://github.com/deyvidandrades/TabCounterExtension" target="_blank"><i class="bi bi-fw bi-github"></i></a>
-                    <p class="fw-bold my-2">Tabie</p>
-                    <p>Este é o Tabie, o contador de guias. Contador de abas abertas na barra de extensões do Chrome.</p>
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="col col-lg-4 p-2">
-                <div class="bg-dark rounded shadow p-0 projeto h-100">
-                  <img class="img img-fluid center-crop rounded-5-top" src="tools/appTheme/gerador_paletas.png" alt="Capa do projeto Gerador de Paletas">
-                  <div class="card-body p-4">
-                    <a class="link-light me-3" href="https://deyvidandrades.github.io/tools/appTheme" target="_blank"><i class="bi bi-fw bi-globe2"></i></a>
-                    <p class="fw-bold my-2">Gerador de Paletas</p>
-                    <p>Um gerador de paletas monocromáticas, feito auxiliar no processo de seleção de cores para a criação de designs de UIs.</p>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
+            </section>
         </div>
-      </section>
-    </div>
-  </div>
 
-  <footer class="py-3 my-4 text-center">
-    <p>Aproximadamente 8 ☕️ foram tomadas durante o desenvolvimento desta página.</p>
+        <div class="tab-pane mb-5" id="portifolio" role="tabpanel" aria-labelledby="portifolio-tab">
+            <!-- PREVIEW PROJETOS -->
+            <section class="bg text-light">
+                <div class="text-start">
+                    <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Work in progress">Meus apps publicados</h1>
+                    <p class="text-light mb-4">Trabalhos que publiquei na GooglePlay store.</p>
+
+                    <div class="row row-fluid row-cols-lg-3" id="projetosAndroidPublicados"></div>
+
+                    <div class="col col-12 gradiente my-5 rounded-5"></div>
+                    <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Work in progress">Projetos Web publicados</h1>
+                    <p class="text-light mb-4">Sites que eu desenvolvi.</p>
+
+                    <div class="row row-fluid row-cols-lg-3" id="projetosWebPublicados"></div>
+
+                    <div class="text-end mt-3">
+                        <a class="bg-dark px-4 py-2 rounded link-light" href="https://github.com/deyvidandrades"
+                           target="_blank">Outros projetos</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="tab-pane bg mb-5" id="projetos" role="tabpanel" aria-labelledby="projetos-tab">
+
+            <!-- OUTROS PROJETOS -->
+            <section class="text-light">
+                <div class="text-start">
+                    <h1 class="text-light display-5" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Work in progress">Diretório de Projetos</h1>
+                    <p class="text-light mb-4">Uma lista dos ultimos projetos que eu tenho trabalhado incluindo projetos
+                        pessoais.</p>
+
+
+                    <div class="row row-fluid row-cols-lg-3" id="diretorioProjetos"></div>
+
+                    <div class="text-end mt-3">
+                        <a class="link-light" href="https://github.com/deyvidandrades" target="_blank">Outros
+                            projetos</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<footer class="py-3 my-4 text-center">
+    <p>Aproximadamente 12 ☕️ foram consumidas durante o desenvolvimento desta página.</p>
 
     <div class="gradiente my-3"></div>
 
-    <p>©<script type="text/javascript">document.write(new Date().getFullYear());</script> <label class="text-light fw-bold fs-5">{Dave}loper</label> v1.2 por <strong >@deyvidandrades</strong></p>
-  </footer>
+    <p>©
+        <script type="text/javascript">document.write(new Date().getFullYear());</script>
+        <label class="text-light fw-bold fs-5">{Dave}loper</label> v2.0 por <strong>@deyvidandrades</strong></p>
+</footer>
 
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  <script type="module" src="js/main.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<!--main-->
+<script type="module" src="js/main.js"></script>
 </body>
-
 </html>
