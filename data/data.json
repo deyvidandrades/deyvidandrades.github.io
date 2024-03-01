@@ -4,13 +4,25 @@
       "instituicao": "Núcleo de Estudos em Empreendedorismo",
       "titulo": "Coordenador de Projetos",
       "descricao": "Fui coordenador de Projetos e membro da equipe de treinamentos. Também participei na organização e realização de eventos, como rodadas de palestras, bate papos e capacitaçãoes.",
-      "periodo": "2023"
+      "periodo": "2023",
+      "topicos": [
+        "Participei de tomadas de decisão",
+        "Desenvolvi e ministrei treinamentos",
+        "Coordenei uma equipe com seis pessoas em projetos internos e externos",
+        "Planejei organizei, junto à equipe diversos eventos de empreendedorismo"
+      ]
     },
     {
       "instituicao": "Spot Party",
       "titulo": "Desenvolvedor (Android) / UX Designer",
       "descricao": "Trabalhei na startup SpotParty no desenvolvimento de um app de gestão e promoção de eventos.",
-      "periodo": "2016-2018"
+      "periodo": "2016-2018",
+      "topicos": [
+        "Trabalhei no desenvolvimento da plataforma (Android SDK, Java)",
+        "Realizei pesquisas de experiência de usuários",
+        "Trabalhei também com apis de pagamentos",
+        "Realizei design de interfaces"
+      ]
     }
   ],
   "capacitacoes": [
@@ -76,9 +88,9 @@
         "2023 - Coordenador de Projetos no Núcleo de Estudos em Empreendedorismo (NEEMP)",
         "2023 - Treinamento ministrado: Diretrizes para Falar Bem Em Público",
         "2023 - Treinamento ministrado: Introdução a Ferramenta Trello (Autoral)",
-        "2023 - Treinamento ministrado: Mindset (Inteligência emocinal)",
+        "2023 - Treinamento ministrado: Mindset (Inteligência emocional)",
         "2023 - Treinamento ministrado: Introdução ao Scrum (Gestão de projetos)",
-        "2019 - Hackathon de Processo Seletivo promovido peloa Empresa CompJunior",
+        "2019 - Hackathon de Processo Seletivo promovido pela Empresa CompJunior",
         "2018 - Minicurso: Introdução ao Capture The Flag (Segurança da informação)"
       ]
     },
@@ -94,17 +106,23 @@
       "titulo": "Curso de Machine Learning e Data Science",
       "instituicao": "Udemy",
       "periodo": "2017",
-      "topicos": []
+      "topicos": [
+        "Regressão Linear",
+        "Redes Neurais Artificiais",
+        "Tecnologias: Python, Pandas, NumPy, Sklean"
+      ]
     },
     {
-      "titulo": "Minicurso: Introdução ao Desenvolvimento de jogos digitais com a ferramenta Unity3d",
+      "titulo": "Minicurso: Introdução ao Desenvolvimento de Jogos Digitais",
       "instituicao": "INATEL",
       "periodo": "2014",
-      "topicos": []
+      "topicos": [
+        "Ferramenta: Unity3d"
+      ]
     },
     {
       "titulo": "Curso Técnico em Informática e Desenvolvimento de Sistemas",
-      "instituicao": "E. E. Américo Dias Pereira",
+      "instituicao": "Pronatec",
       "periodo": "2013-2015",
       "topicos": [
         "Tecnologias: C#, MySql, HTML5, CSS, JS,PHP"
@@ -131,97 +149,146 @@
     {
       "titulo": "Android SDK",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Kotlin",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Java",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Firebase",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "UX Design",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "HTML/CSS",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "JS",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Bootstrap",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "VUEJs",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Python",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Flask",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "GIT",
       "descricao": "",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "REST",
       "descricao": "",
-      "softSkill": false
-    },
-    {
-      "titulo": "Scrum",
-      "descricao": "Trabalhei com o framework em equipes desenvolvendo projetos de tecnologia e projetos voltados ao empreendedorismo.",
-      "softSkill": false
+      "softSkill": false,
+      "tecnologia": true
     },
     {
       "titulo": "Oratória",
       "descricao": "Sempre tive interesse em apresentar em público, já fiz apresentações de projetos pessoais e, recentemente, ministrei treinamentos nas áreas de desenvolvimento pessoal, tecnologia e gestrão de projetos.",
-      "softSkill": true
+      "softSkill": true,
+      "tecnologia": false
     },
     {
       "titulo": "Inteligência emocional",
       "descricao": "",
-      "softSkill": true
+      "softSkill": true,
+      "tecnologia": false
     },
     {
       "titulo": "Pensamento crítico",
       "descricao": "",
-      "softSkill": true
+      "softSkill": true,
+      "tecnologia": false
     },
     {
       "titulo": "Trabalho em equipe",
       "descricao": "",
-      "softSkill": true
+      "softSkill": true,
+      "tecnologia": false
     },
     {
       "titulo": "Organização",
       "descricao": "",
-      "softSkill": true
+      "softSkill": true,
+      "tecnologia": false
+    },
+    {
+      "titulo": "Liderança",
+      "descricao": "",
+      "softSkill": true,
+      "tecnologia": false
+    },
+    {
+      "titulo": "Desenvolvimento Mobile (Android Nativo)",
+      "descricao": "",
+      "softSkill": false,
+      "tecnologia": false
+    },
+    {
+      "titulo": "Desenvolvimento Desktop (Python/Java)",
+      "descricao": "",
+      "softSkill": false,
+      "tecnologia": false
+    },
+    {
+      "titulo": "Desenvolvimento Web",
+      "descricao": "",
+      "softSkill": false,
+      "tecnologia": false
+    },
+    {
+      "titulo": "Metodologias Ágeis (SCRUM)",
+      "descricao": "",
+      "softSkill": false,
+      "tecnologia": false
+    },
+    {
+      "titulo": "Desenvolvimento de APIs (Flask/REST)",
+      "descricao": "",
+      "softSkill": false,
+      "tecnologia": false
     }
   ],
   "projetos": [
@@ -264,7 +331,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.dws.oxie",
       "url_github": "https://github.com/deyvidandrades/Oxie",
       "url_capa": "https://play-lh.googleusercontent.com/Rr8_HlV50Ie8khfdIC3x_1JpL0yKYpxyeChzeTWCFiYZh9vaHwpq4_UwcZxDA73IbXaV=w2560-h1440-rw",
-      "wip": true,
+      "wip": false,
       "arquivado": false
     },
     {
