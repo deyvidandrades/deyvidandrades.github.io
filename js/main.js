@@ -25,7 +25,7 @@ function criarCard(projeto) {
   <img class="img img-fluid center-crop rounded-5-top" src="${projeto["url_capa"]}" alt="Capa do projeto ${projeto["nome"]}">
   <div class="card-body p-4">
   ${links}
-  <p class="fw-bold my-2">${projeto["nome"]} ${projeto["arquivado"] ? "(Descontinuado)" : ""}</p>
+  <p class="fw-bold my-2">${projeto["nome"]} ${projeto["arquivado"] ? "(Obsoleto)" : ""}</p>
   <p>${projeto["descricao"]}</p>
   ${wip}
   </div>
@@ -111,8 +111,23 @@ function init(data) {
     let listaEducacao = document.getElementById("listaEducacao")
 
     data["projetos"].sort((a, b) => a["data"] > b["data"] ? -1 : 1)
+    let array_obsoleto = []
+    let array_projetos = []
 
-    data["projetos"].forEach((item, i) => {
+    for (let i in data["projetos"]) {
+        let item = data["projetos"][i]
+        if (item["arquivado"])
+            array_obsoleto.push(item)
+        else
+            array_projetos.push(item)
+    }
+
+    array_obsoleto.forEach((item) => {
+        array_projetos.push(item)
+    })
+
+    array_projetos.forEach((item, i) => {
+        console.log(item)
         if (item["destaque"]) {
             projetosDestaque.innerHTML += criarCard(item)
         }
