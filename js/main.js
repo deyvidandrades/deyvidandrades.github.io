@@ -127,7 +127,6 @@ function init(data) {
     })
 
     array_projetos.forEach((item, i) => {
-        console.log(item)
         if (item["destaque"]) {
             projetosDestaque.innerHTML += criarCard(item)
         }
