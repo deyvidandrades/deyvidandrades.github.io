@@ -472,6 +472,20 @@
       "url_capa": "https://deyvidandrades.github.io/tools/appTheme/gerador_paletas.png",
       "wip": false,
       "arquivado": false
+    },
+    {
+      "nome": "DoTv",
+      "descricao": "Um site para ver tv aberta online, gratuito e de código aberto.",
+      "destaque": true,
+      "publicado": true,
+      "tipo": "web",
+      "data": 2024.1,
+      "tecnologia": "Js",
+      "url": "https://deyvidandrades.github.io/DoTv/",
+      "url_github": "https://github.com/deyvidandrades/DoTv",
+      "url_capa": "https://deyvidandrades.github.io/DoTv/dotv_banner.png",
+      "wip": true,
+      "arquivado": false
     }
   ]
 }
