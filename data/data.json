@@ -336,7 +336,7 @@
     },
     {
       "descricao": "Um todo app minimalista",
-      "destaque": true,
+      "destaque": false,
       "nome": "Minimal List (Minha Rotina)",
       "publicado": true,
       "data": 2021.2,
