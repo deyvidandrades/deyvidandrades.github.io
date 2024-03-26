@@ -60,7 +60,7 @@
     },
     {
       "titulo": "Prêmio: Empresa Destaque",
-      "descricao": "Trabalhei na Startup Spot Party, onde participamos do processo de pré-incubação de empresas na Incubadora de Empresas de base Tecnológica da UNIFAL e fomos premiados como a empresa destaque do proceso.",
+      "descricao": "Trabalhei na Startup Spot Party, onde participamos do processo de pré-incubação de empresas na Incubadora de Empresas de base Tecnológica da UNIFAL e fomos premiados como a empresa destaque do processo.",
       "periodo": "2018"
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "titulo": "Palestra/Apresentação",
-      "descricao": "Apresentação de projeto de conclusão de curso técnico em infomática e desenvolvimento de sistemas (Projeto: Do Voice Chat)",
+      "descricao": "Apresentação de projeto de conclusão de curso técnico em informática e desenvolvimento de sistemas (Projeto: Do Voice Chat)",
       "periodo": "2015"
     }
   ],
@@ -231,6 +231,12 @@
       "tecnologia": false
     },
     {
+      "titulo": "Organização",
+      "descricao": "",
+      "softSkill": true,
+      "tecnologia": false
+    },
+    {
       "titulo": "Inteligência emocional",
       "descricao": "",
       "softSkill": true,
@@ -244,12 +250,6 @@
     },
     {
       "titulo": "Trabalho em equipe",
-      "descricao": "",
-      "softSkill": true,
-      "tecnologia": false
-    },
-    {
-      "titulo": "Organização",
       "descricao": "",
       "softSkill": true,
       "tecnologia": false
