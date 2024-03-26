@@ -3,7 +3,7 @@
     {
       "instituicao": "Núcleo de Estudos em Empreendedorismo",
       "titulo": "Coordenador de Projetos",
-      "descricao": "Fui coordenador de Projetos e membro da equipe de treinamentos. Também participei na organização e realização de eventos, como rodadas de palestras, bate papos e capacitaçãoes.",
+      "descricao": "Fui coordenador de Projetos e membro da equipe de treinamentos. Também participei na organização e realização de eventos, como rodadas de palestras, bate papos e capacitações.",
       "periodo": "2023",
       "topicos": [
         "Participei de tomadas de decisão",
@@ -226,7 +226,7 @@
     },
     {
       "titulo": "Oratória",
-      "descricao": "Sempre tive interesse em apresentar em público, já fiz apresentações de projetos pessoais e, recentemente, ministrei treinamentos nas áreas de desenvolvimento pessoal, tecnologia e gestrão de projetos.",
+      "descricao": "Sempre tive interesse em apresentar em público, já fiz apresentações de projetos pessoais e, recentemente, ministrei treinamentos nas áreas de desenvolvimento pessoal, tecnologia e gestão de projetos.",
       "softSkill": true,
       "tecnologia": false
     },
@@ -433,7 +433,7 @@
     },
     {
       "nome": "Meus Dias",
-      "descricao": "O Meus dias é um aplicativo projetado para ajudá-lo a transformar seus objetivos em realidade, de forma descontraida, focando em um único objetivo de cada vez.",
+      "descricao": "O Meus dias é um aplicativo projetado para ajudá-lo a transformar seus objetivos em realidade, de forma descontraída, focando em um único objetivo de cada vez.",
       "destaque": true,
       "publicado": true,
       "tipo": "app",
@@ -460,7 +460,7 @@
       "arquivado": false
     },
     {
-      "nome": "Gerador de Paletas Monocromaticas",
+      "nome": "Gerador de Paletas Monocromáticas",
       "descricao": "Um gerador de paletas de cores para auxiliar no processo de design.",
       "destaque": false,
       "publicado": false,
