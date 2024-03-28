@@ -298,8 +298,9 @@
       "tipo": "app",
       "tecnologia": "Kotlin",
       "data": 2024.1,
-      "url": "https://play.google.com/store/apps/details?id=com.deyvidandrades.spotparty",
+      "url": "https://spotpartyapp.web.app/",
       "url_capa": "https://play-lh.googleusercontent.com/IPTuLTvoo1EmPRj0oCj4b2l6xPafa8srQ0b6MboaMAHovMoGgLI2LGbkj-3UhM7Bj7M=w2560-h1440-rw",
+      "url_google_play": "https://play.google.com/store/apps/details?id=com.deyvidandrades.spotparty",
       "url_github": "",
       "destaque": true,
       "publicado": true,
@@ -312,8 +313,9 @@
       "tipo": "app",
       "tecnologia": "Java",
       "data": 2017.1,
-      "url": "https://play.google.com/store/apps/details?id=dws.spotparty",
+      "url": "https://spotparty-f2981.web.app/",
       "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/sp_capa_fb_sem_data.png?alt=media&token=64554b36-b696-4dd7-8121-24153f6c3e69",
+      "url_google_play": "https://play.google.com/store/apps/details?id=dws.spotparty",
       "url_github": "",
       "destaque": false,
       "publicado": true,
@@ -328,9 +330,10 @@
       "tipo": "app",
       "data": 2016.2,
       "tecnologia": "Java",
-      "url": "https://play.google.com/store/apps/details?id=dws.blackbird",
+      "url": "",
       "url_github": "",
       "url_capa": "https://play-lh.googleusercontent.com/ZVuKhFfiJc5U3kWd4q9Vu757aUSKMm6RoyEsEpItOSGlvdd0LwGq2UFIS6fMGxEDCgOb=w330-h160-rw",
+      "url_google_play": "https://play.google.com/store/apps/details?id=dws.blackbird",
       "wip": false,
       "arquivado": true
     },
@@ -342,9 +345,10 @@
       "data": 2022.2,
       "tipo": "app",
       "tecnologia": "Kotlin",
-      "url": "https://play.google.com/store/apps/details?id=com.dws.oxie",
+      "url": "",
       "url_github": "https://github.com/deyvidandrades/Oxie",
       "url_capa": "https://play-lh.googleusercontent.com/Rr8_HlV50Ie8khfdIC3x_1JpL0yKYpxyeChzeTWCFiYZh9vaHwpq4_UwcZxDA73IbXaV=w2560-h1440-rw",
+      "url_google_play": "https://play.google.com/store/apps/details?id=com.dws.oxie",
       "wip": false,
       "arquivado": true
     },
@@ -359,6 +363,7 @@
       "url": "https://appminharotina.web.app/",
       "url_github": "",
       "url_capa": "https://appminharotina.web.app/img/tarefas-personalizadas.99552bed.png",
+      "url_google_play": "",
       "wip": false,
       "arquivado": false
     },
@@ -373,6 +378,7 @@
       "url": "https://github.com/deyvidandrades/DoImageViewer/releases",
       "url_github": "https://github.com/deyvidandrades/DoImageViewer",
       "url_capa": "https://raw.githubusercontent.com/deyvidandrades/DoImageViewer/main/src/res/DoImageViewer.png",
+      "url_google_play": "",
       "wip": false,
       "arquivado": false
     },
@@ -387,6 +393,7 @@
       "url": "https://nomees.web.app/",
       "url_github": "https://github.com/deyvidandrades/Nomees",
       "url_capa": "https://nomees.web.app/imagem2.png",
+      "url_google_play": "",
       "wip": false,
       "arquivado": false
     },
@@ -401,6 +408,7 @@
       "url": "https://deyvidandrades.itch.io/infinicities",
       "url_github": "",
       "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/bg2.png?alt=media&token=aaa8fcd9-53ac-4b35-9b45-c494402508c6",
+      "url_google_play": "",
       "wip": true
     },
     {
@@ -411,9 +419,10 @@
       "tipo": "app",
       "data": 2022.22,
       "tecnologia": "Kotlin",
-      "url": "https://play.google.com/store/apps/details?id=com.dws.noted",
+      "url": "",
       "url_github": "https://github.com/deyvidandrades/Noted",
       "url_capa": "https://github.com/deyvidandrades/Noted/raw/master/app/src/main/res/noted-banner.png",
+      "url_google_play": "https://play.google.com/store/apps/details?id=com.dws.noted",
       "wip": true,
       "arquivado": false
     },
@@ -428,6 +437,7 @@
       "url": "",
       "url_github": "https://github.com/deyvidandrades/MinhaUfla",
       "url_capa": "https://firebasestorage.googleapis.com/v0/b/spotparty-f2981.appspot.com/o/Screenshot_20221206-085129.png?alt=media&token=1eeb9bb0-2825-4004-adc5-09495b5e226f",
+      "url_google_play": "",
       "wip": false,
       "arquivado": true
     },
@@ -442,6 +452,7 @@
       "url": "https://chrome.google.com/webstore/detail/tabie/lnaelkidoagdbcoclehbibcjmepdpigg?hl=pt-BR&authuser=0",
       "url_github": "https://github.com/deyvidandrades/TabCounterExtension",
       "url_capa": "https://raw.githubusercontent.com/deyvidandrades/TabCounterExtension/main/src/tabie-banner-1280x800.png",
+      "url_google_play": "",
       "wip": false,
       "arquivado": false
     },
@@ -453,9 +464,10 @@
       "tipo": "app",
       "data": 2023.2,
       "tecnologia": "Kotlin",
-      "url": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meusdias",
+      "url": "https://deyvidandrades.github.io/MeusDias/",
       "url_github": "https://github.com/deyvidandrades/MeusDias",
       "url_capa": "https://raw.githubusercontent.com/deyvidandrades/MeusDias/master/src/main/meusdias-banner.png",
+      "url_google_play": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meusdias",
       "wip": false,
       "arquivado": false
     },
@@ -470,6 +482,7 @@
       "url": "https://deyvidandrades.github.io/tools/todo",
       "url_github": "",
       "url_capa": "https://deyvidandrades.github.io/tools/todo/img/checkie-banner.png",
+      "url_google_play": "",
       "wip": false,
       "arquivado": false
     },
@@ -484,6 +497,7 @@
       "url": "https://deyvidandrades.github.io/tools/appTheme",
       "url_github": "",
       "url_capa": "https://deyvidandrades.github.io/tools/appTheme/gerador_paletas.png",
+      "url_google_play": "",
       "wip": false,
       "arquivado": false
     },
@@ -498,6 +512,7 @@
       "url": "https://deyvidandrades.github.io/DoTv/",
       "url_github": "https://github.com/deyvidandrades/DoTv",
       "url_capa": "https://deyvidandrades.github.io/DoTv/dotv_banner.png",
+      "url_google_play": "",
       "wip": true,
       "arquivado": false
     }

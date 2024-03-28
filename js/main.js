@@ -14,6 +14,10 @@ function criarCard(projeto) {
         links += `<a class="link-light me-3" href="${projeto["url"]}" target="_blank"><i class="bi bi-fw bi-globe2"></i></a>`
     }
 
+    if (projeto["url_google_play"] !== "") {
+        links += `<a class="link-light me-3" href="${projeto["url"]}" target="_blank"><i class="bi bi-fw bi-google-play"></i></a>`
+    }
+
     if (projeto["url_github"] !== "") {
         links += `<a class="link-light" href="${projeto["url_github"]}" target="_blank"><i class="bi bi-fw bi-github"></i></a>`
     }
