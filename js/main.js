@@ -15,7 +15,7 @@ function criarCard(projeto) {
     }
 
     if (projeto["url_google_play"] !== "") {
-        links += `<a class="link-light me-3" href="${projeto["url"]}" target="_blank"><i class="bi bi-fw bi-google-play"></i></a>`
+        links += `<a class="link-light me-3" href="${projeto["url_google_play"]}" target="_blank"><i class="bi bi-fw bi-google-play"></i></a>`
     }
 
     if (projeto["url_github"] !== "") {
