@@ -369,7 +369,7 @@
     },
     {
       "descricao": "Um visualizador de imagens multiplataforma simples e leve.",
-      "destaque": true,
+      "destaque": false,
       "nome": "Do Image Viewer",
       "publicado": true,
       "tipo": "desktop",
