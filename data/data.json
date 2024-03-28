@@ -294,6 +294,20 @@
   "projetos": [
     {
       "nome": "Spot Party",
+      "descricao": "Um app que te ajuda a encontrar pessoas para sair.",
+      "tipo": "app",
+      "tecnologia": "Kotlin",
+      "data": 2024.1,
+      "url": "https://play.google.com/store/apps/details?id=com.deyvidandrades.spotparty",
+      "url_capa": "https://play-lh.googleusercontent.com/IPTuLTvoo1EmPRj0oCj4b2l6xPafa8srQ0b6MboaMAHovMoGgLI2LGbkj-3UhM7Bj7M=w2560-h1440-rw",
+      "url_github": "",
+      "destaque": false,
+      "publicado": true,
+      "arquivado": false,
+      "wip": false
+    },
+    {
+      "nome": "Spot Party",
       "descricao": "Um app de gestão e promoção de eventos",
       "tipo": "app",
       "tecnologia": "Java",
