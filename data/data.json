@@ -515,6 +515,21 @@
       "url_google_play": "",
       "wip": true,
       "arquivado": false
+    },
+    {
+      "nome": "Meus Feeds",
+      "descricao": "Meus Feeds é um leitor de RSS que permite aos usuários adicionar links de sites desejados para receber feeds RSS.",
+      "destaque": false,
+      "publicado": true,
+      "tipo": "aoo",
+      "data": 2024.2,
+      "tecnologia": "Js",
+      "url": "https://deyvidandrades.github.io/MeusFeeds/",
+      "url_github": "https://github.com/deyvidandrades/MeusFeeds/",
+      "url_capa": "https://deyvidandrades.github.io/MeusFeeds/meusfeeds_banner.png",
+      "url_google_play": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meusfeeds",
+      "wip": true,
+      "arquivado": false
     }
   ]
 }
