@@ -530,6 +530,21 @@
       "url_google_play": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meusfeeds",
       "wip": true,
       "arquivado": false
+    },
+    {
+      "nome": "Meu Clima",
+      "descricao": "Meu Clima é um aplicativo essencial para quem deseja se manter informado sobre as condições climáticas locais.",
+      "destaque": false,
+      "publicado": true,
+      "tipo": "app",
+      "data": 2022.6,
+      "tecnologia": "Kotlin",
+      "url": "https://deyvidandrades.github.io/MeuClima/",
+      "url_github": "https://github.com/deyvidandrades/MeuClima/",
+      "url_capa": "https://deyvidandrades.github.io/MeuClima/meuclima_banner.png",
+      "url_google_play": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meuclima",
+      "wip": false,
+      "arquivado": false
     }
   ]
 }
