@@ -3,11 +3,12 @@ fetch("/data/data.json")
     .then(json => init(json));
 
 function criarCard(projeto) {
-    let wip = `<div class="d-flex mt-2"><div class="border px-2 me-2 rounded title">${projeto["tipo"]}</div><div class="border px-2 rounded">${projeto["tecnologia"]}</div></div>`
+    let wip = `<div class="d-flex"><div class="border px-2 me-2 rounded title">${projeto["tipo"]}</div><div class="border px-2 rounded">${projeto["tecnologia"]}</div></div>`
     let links = ``
+    let arquivado = ``
 
     if (projeto["wip"]) {
-        wip += `<div class="d-flex mt-2"><div class="border px-2 rounded">Em Desenvolvimento</div></div>`
+        wip += `<div class="mt-3 text-center"><div class="border px-2 rounded">Em Desenvolvimento</div></div>`
     }
 
     if (projeto["url"] !== "") {
@@ -22,16 +23,23 @@ function criarCard(projeto) {
         links += `<a class="link-light" href="${projeto["url_github"]}" target="_blank"><i class="bi bi-fw bi-github"></i></a>`
     }
 
+    if(projeto["arquivado"]){
+        arquivado = `<div class="border px-2 mt-3 rounded text-center">Projeto descontinuado</div>`
+    }
+
     return `
   <!--${projeto["nome"]}-->
   <div class="col p-2">
-  <div class="bg-dark rounded shadow p-0 projeto h-100">
+  <div class="card bg-dark rounded shadow p-0 projeto h-100">
   <img class="img img-fluid center-crop rounded-5-top" src="${projeto["url_capa"]}" alt="Capa do projeto ${projeto["nome"]}">
   <div class="card-body p-4">
   ${links}
-  <p class="fw-bold my-2">${projeto["nome"]} ${projeto["arquivado"] ? "(Obsoleto)" : ""}</p>
-  <p>${projeto["descricao"]}</p>
+  <p class="fw-bold my-2">${projeto["nome"]}</p>
+  <p class="mb-0">${projeto["descricao"]}</p>
+  </div>
+  <div class="card-footer p-3">
   ${wip}
+  ${arquivado}
   </div>
   </div>
   </div>
