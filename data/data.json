@@ -519,7 +519,7 @@
     {
       "nome": "Meus Feeds",
       "descricao": "Meus Feeds é um leitor de RSS que permite aos usuários adicionar links de sites desejados para receber feeds RSS.",
-      "destaque": false,
+      "destaque": true,
       "publicado": true,
       "tipo": "app",
       "data": 2024.2,
@@ -534,7 +534,7 @@
     {
       "nome": "Meu Clima",
       "descricao": "Meu Clima é um aplicativo essencial para quem deseja se manter informado sobre as condições climáticas locais.",
-      "destaque": false,
+      "destaque": true,
       "publicado": true,
       "tipo": "app",
       "data": 2022.6,
