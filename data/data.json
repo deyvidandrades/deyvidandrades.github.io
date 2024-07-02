@@ -9,7 +9,7 @@
         "Participei de tomadas de decisão",
         "Desenvolvi e ministrei treinamentos",
         "Coordenei uma equipe com seis pessoas em projetos internos e externos",
-        "Planejei organizei, junto à equipe diversos eventos de empreendedorismo"
+        "Planejei e organizei junto à equipe, eventos de empreendedorismo"
       ]
     },
     {
@@ -18,10 +18,10 @@
       "descricao": "Trabalhei na startup SpotParty no desenvolvimento de um app de gestão e promoção de eventos.",
       "periodo": "2016-2018",
       "topicos": [
-        "Trabalhei no desenvolvimento da plataforma (Android SDK, Java)",
+        "Desenvolvi o aplicativo para Andrdoid (Android SDK, Java)",
+        "Realizei design de interfaces",
         "Realizei pesquisas de experiência de usuários",
-        "Trabalhei também com apis de pagamentos",
-        "Realizei design de interfaces"
+        "Trabalhei também com apis de pagamentos"
       ]
     }
   ],
@@ -145,91 +145,94 @@
       "topicos": []
     }
   ],
-  "habilidades": [
+  "habilidadesTecnicas": [
     {
       "titulo": "Android SDK",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "Kotlin",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "Java",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "Firebase",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "UX Design",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "HTML/CSS",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "JS",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "Bootstrap",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "VUEJs",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "Python",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "Flask",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "GIT",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
       "titulo": "REST",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": true
     },
     {
-      "titulo": "Oratória",
-      "descricao": "Sempre tive interesse em apresentar em público, já fiz apresentações de projetos pessoais e, recentemente, ministrei treinamentos nas áreas de desenvolvimento pessoal, tecnologia e gestão de projetos.",
-      "softSkill": true,
+      "titulo": "Desenvolvimento Mobile (Android Nativo)",
+      "descricao": "",
       "tecnologia": false
     },
+    {
+      "titulo": "Desenvolvimento Desktop (Python/Java)",
+      "descricao": "",
+      "tecnologia": false
+    },
+    {
+      "titulo": "Desenvolvimento Web",
+      "descricao": "",
+      "tecnologia": false
+    },
+    {
+      "titulo": "Desenvolvimento de APIs (Flask/REST)",
+      "descricao": "",
+      "tecnologia": false
+    }
+  ],
+  "habilidadesComportamentais": [
     {
       "titulo": "Organização",
       "descricao": "",
@@ -261,34 +264,27 @@
       "tecnologia": false
     },
     {
-      "titulo": "Desenvolvimento Mobile (Android Nativo)",
-      "descricao": "",
-      "softSkill": false,
-      "tecnologia": false
-    },
-    {
-      "titulo": "Desenvolvimento Desktop (Python/Java)",
-      "descricao": "",
-      "softSkill": false,
-      "tecnologia": false
-    },
-    {
-      "titulo": "Desenvolvimento Web",
-      "descricao": "",
-      "softSkill": false,
-      "tecnologia": false
-    },
-    {
       "titulo": "Metodologias Ágeis (SCRUM)",
       "descricao": "",
-      "softSkill": false,
       "tecnologia": false
+    }
+  ],
+  "habilidadesBasicas": [
+    {
+      "titulo": "Informática Avançada",
+      "descricao": ""
     },
     {
-      "titulo": "Desenvolvimento de APIs (Flask/REST)",
-      "descricao": "",
-      "softSkill": false,
-      "tecnologia": false
+      "titulo": "Sistemas Linux",
+      "descricao": ""
+    },
+    {
+      "titulo": "Pacote Office",
+      "descricao": ""
+    },
+    {
+      "titulo": "Oratória",
+      "descricao": "Sempre tive interesse em apresentar em público, já fiz apresentações de projetos pessoais e, recentemente, ministrei treinamentos nas áreas de desenvolvimento pessoal, tecnologia e gestão de projetos."
     }
   ],
   "projetos": [

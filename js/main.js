@@ -23,7 +23,7 @@ function criarCard(projeto) {
         links += `<a class="link-light" href="${projeto["url_github"]}" target="_blank"><i class="bi bi-fw bi-github"></i></a>`
     }
 
-    if(projeto["arquivado"]){
+    if (projeto["arquivado"]) {
         arquivado = `<div class="border px-2 mt-3 rounded text-center">Projeto descontinuado</div>`
     }
 
@@ -160,8 +160,8 @@ function init(data) {
         listaExperiencias.innerHTML += criarExperiencia(item)
     })
 
-    data["habilidades"].forEach((item, i) => {
-        if (item["tecnologia"] || item["softSkill"])
+    data["habilidadesTecnicas"].forEach(item => {
+        if (item["tecnologia"])
             listaHabilidades.innerHTML += criarHabilidades(item)
     })
 
