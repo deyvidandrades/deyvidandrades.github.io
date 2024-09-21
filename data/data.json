@@ -8,8 +8,7 @@
       "topicos": [
         "Participei de tomadas de decisão",
         "Desenvolvi e ministrei treinamentos",
-        "Coordenei uma equipe com seis pessoas em projetos internos e externos",
-        "Planejei e organizei junto à equipe, eventos de empreendedorismo"
+        "Planejei e organizei projetos e eventos de empreendedorismo"
       ]
     },
     {
@@ -19,7 +18,6 @@
       "periodo": "2016-2018",
       "topicos": [
         "Desenvolvi o aplicativo para Andrdoid (Android SDK, Java)",
-        "Realizei design de interfaces",
         "Realizei pesquisas de experiência de usuários",
         "Trabalhei também com apis de pagamentos"
       ]
@@ -106,37 +104,25 @@
       "titulo": "Curso de Machine Learning e Data Science",
       "instituicao": "Udemy",
       "periodo": "2017",
-      "topicos": [
-        "Regressão Linear",
-        "Redes Neurais Artificiais",
-        "Tecnologias: Python, Pandas, NumPy, Sklean"
-      ]
+      "topicos": ["Regressão Linear", "Redes Neurais Artificiais", "Tecnologias: Python, Pandas, NumPy, Sklean"]
     },
     {
       "titulo": "Minicurso: Introdução ao Desenvolvimento de Jogos Digitais",
       "instituicao": "Inatel",
       "periodo": "2014",
-      "topicos": [
-        "Ferramenta: Unity3d"
-      ]
+      "topicos": ["Ferramenta: Unity3d"]
     },
     {
       "titulo": "Curso Técnico em Informática e Desenvolvimento de Sistemas",
       "instituicao": "Pronatec",
       "periodo": "2013-2015",
-      "topicos": [
-        "Tecnologias: C#, MySql, HTML5, CSS, JS,PHP"
-      ]
+      "topicos": ["Tecnologias: C#, MySql, HTML5, CSS, JS,PHP"]
     },
     {
       "titulo": "Curso de Projetista",
       "instituicao": "Brasil Treina",
       "periodo": "2012-2013",
-      "topicos": [
-        "Design e modelagem 2D e 3D",
-        "Ferramenta: 3d Studio Max",
-        "Ferramenta: Autocad"
-      ]
+      "topicos": ["Design e modelagem 2D e 3D", "Ferramenta: 3d Studio Max", "Ferramenta: Autocad"]
     },
     {
       "titulo": "Curso Técnico em Montagem e Manutenção de Computadores",
@@ -172,12 +158,7 @@
       "tecnologia": true
     },
     {
-      "titulo": "HTML/CSS",
-      "descricao": "",
-      "tecnologia": true
-    },
-    {
-      "titulo": "JS",
+      "titulo": "HTML/CSS/JS",
       "descricao": "",
       "tecnologia": true
     },
@@ -197,7 +178,7 @@
       "tecnologia": true
     },
     {
-      "titulo": "Flask",
+      "titulo": "Flask/REST",
       "descricao": "",
       "tecnologia": true
     },
@@ -207,12 +188,7 @@
       "tecnologia": true
     },
     {
-      "titulo": "REST",
-      "descricao": "",
-      "tecnologia": true
-    },
-    {
-      "titulo": "Desenvolvimento Mobile (Android Nativo)",
+      "titulo": "Android SDK (Kotlin/Java)",
       "descricao": "",
       "tecnologia": false
     },
@@ -524,7 +500,7 @@
       "url_github": "https://github.com/deyvidandrades/MeusFeeds/",
       "url_capa": "https://deyvidandrades.github.io/MeusFeeds/meusfeeds_banner.png",
       "url_google_play": "https://play.google.com/store/apps/details?id=com.deyvidandrades.meusfeeds",
-      "wip": true,
+      "wip": false,
       "arquivado": false
     },
     {
