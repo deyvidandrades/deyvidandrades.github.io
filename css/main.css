@@ -1,0 +1,177 @@
+:root {
+    --bg: #111111;
+    --text: #eeeeee;
+    --text-dark: #555555;
+    --border: #464646; /*rgba(255, 255, 255, .1);*/
+    --surface: #222222;
+    --surface-hover: #2D2D2D;
+
+    --sizing-round: .4rem;
+    --sizing-card-round: .8rem;
+
+    background-color: var(--bg);
+    color: var(--text);
+}
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+::-webkit-scrollbar-track {
+    background: var(--border);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-dark);
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    height: 100vh !important;
+}
+p {
+    /*    font-family: "American Typewriter", monospace;*/
+}
+p img {
+    max-width: 100%;
+    border-radius: var(--sizing-round) !important;
+}
+
+.bg {
+    background-color: var(--bg) !important;
+}
+.quadriculado {
+    --dot-bg: var(--bg);
+    --dot-color: #444444;
+    --dot-size: 1px;
+    --dot-space: 24px;
+    background: linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+    height: 100%;
+}
+
+.markdown {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.markdown p {
+    line-height: 2.0;
+}
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+.markdown img {
+    max-height: 256px;
+    width: 100%;
+}
+
+.heading .list-group {
+    background-color: var(--surface) !important;
+    border-radius: var(--sizing-round) !important;
+}
+.heading .list-group-item {
+    background-color: var(--surface) !important;
+    border-radius: var(--sizing-round) !important;
+    border: none; /*1px solid var(--border);*/
+    color: var(--text);
+}
+.heading .list-group-item.active, .heading .list-group-item:hover {
+    background-color: var(--surface-hover) !important;
+    /*    border: 1px solid var(--border);*/
+    border-radius: var(--sizing-round) !important;
+    color: var(--text);
+}
+
+.list-group {
+    background-color: var(--bg) !important;
+    border-radius: var(--sizing-round) !important;
+}
+.list-group-item {
+    background-color: var(--bg) !important;
+    border-radius: var(--sizing-round) !important;
+    border: none; /*    border: 1px solid var(--surface) !important;*/
+    color: var(--text);
+}
+.list-group-item.active {
+    background-color: var(--bg) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: var(--sizing-round) !important;
+    color: var(--text);
+}
+.list-group-item:hover {
+    background-color: var(--bg) !important;
+    /*    border: 1px solid var(--border) !important;*/
+    border-radius: var(--sizing-round) !important;
+    color: var(--text);
+}
+
+.gradiente {
+    background: #12c2e9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 2px;
+}
+.nav-bar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    /*    border-radius: .2rem;*/
+}
+.footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+}
+
+.tag {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: .2rem;
+}
+.tag, a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text) !important;
+}
+.card-projetos {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--sizing-card-round);
+}
+.card-projetos:hover {
+    transform: scale(1.01);
+}
+.card-projetos img {
+    border-top-left-radius: var(--sizing-card-round);
+    border-top-right-radius: var(--sizing-card-round);
+    object-fit: cover !important;
+    height: 200px !important;
+}
+.card-blog {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--sizing-card-round);
+    cursor: pointer;
+}
+.card-blog:hover {
+    transform: scale(1.01);
+    background: var(--surface-hover);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.grid-item {
+    background-color: #ddd;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.grid-item-large {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}

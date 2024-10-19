@@ -1,1 +1,6 @@
-/cv
+/cv/
+v1/
+.fleet/
+.idea/
+.atom-live-server.json
+.gitignore

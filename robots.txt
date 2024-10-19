@@ -2,6 +2,8 @@ User-agent: Googlebot
 Disallow: /js/
 Disallow: /css/
 Disallow: /cv/
+Disallow: /v1/
+Disallow: /v2/
 User-agent: *
 Allow: /
 Crawl-delay: 5
