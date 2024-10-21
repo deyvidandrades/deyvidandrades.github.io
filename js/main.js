@@ -80,7 +80,7 @@ function criarBlogPosts(post) {
     })
 
     return `
-    <a href="blog/?p=${post["id"]}" target="_blank" class="card-blog d-flex justify-content-between rounded-3 p-3">
+    <a href="blog/?p=${post["id"]}" class="card-blog d-flex justify-content-between rounded-3 p-3">
         <div class="w-100 pe-2">
             <div class="d-flex justify-content-between">
                 <p class="fw-bold mb-1">${post["titulo"]}</p>
